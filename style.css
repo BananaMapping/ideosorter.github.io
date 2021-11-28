@@ -3,6 +3,8 @@ html {
     font-family: 'Jost', sans-serif;
     background-color: #DDD;
     color: #000;
+    display: table;
+    margin: auto;
 }
 body {
     margin: 0 auto;
@@ -104,6 +106,9 @@ button {
     align-items: center;
     width: 100%;
     margin: 0 auto;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
   }
   h1 {
     font-size: 14vw;
@@ -119,6 +124,8 @@ button {
   }
   p {
     font-size: 5vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
   select {
     margin: 2 auto;
@@ -132,11 +139,10 @@ button {
   }
   button.button {
     font-size: 6vw;
-    width: 1%;
+    width: 65%;
   }
   #question{
-    width: 100%
-    padding: 1vw;
+    padding: 2vw;
     border: 1vw;
     margin: 0 auto;
     margin-bottom: 8vw;
