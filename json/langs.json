@@ -1,0 +1,15 @@
+[
+    {
+        "id":"en",
+        "name":"English"
+    },
+    {
+        "id":"cz",
+        "name": "Czech"
+    },
+    {
+        "id":"pt",
+        "name": "Portuguese"
+    }
+
+]
