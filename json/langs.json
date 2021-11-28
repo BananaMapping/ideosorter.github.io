@@ -4,12 +4,15 @@
         "name":"English"
     },
     {
-        "id":"cz",
-        "name": "Czech"
+        "id":"cs",
+        "name":"Čeština (Not finished)"
+    },
+    {
+        "id":"de",
+        "name":"Deutsch (Not finished)"
     },
     {
         "id":"pt",
-        "name": "Portuguese"
+        "name":"Portugês (Not finished)"
     }
-
 ]
