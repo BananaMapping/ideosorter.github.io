@@ -45,7 +45,7 @@ function load_questions(data){
 }
 
 function load_ui(quiz){
-    document.getElementById("title").innerHTML = quiz.title
+    document.getElementById("quiz_title").innerHTML = quiz.title
     if(Array.prototype.at){
       document.getElementById("back_button").innerHTML = quiz.back
     } else {

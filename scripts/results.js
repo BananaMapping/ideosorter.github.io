@@ -21,7 +21,7 @@ function load_results(data){
 }
 
 function load_ui(results){
-    document.getElementById("title").innerHTML = results.title
+    document.getElementById("results_title").innerHTML = results.title
     fetch(`./json/${lang}/results-${lang}.json`)
         .then(response => response.json())
         .then(data => load_results(data))

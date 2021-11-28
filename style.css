@@ -98,3 +98,58 @@ button {
         background-color: #000;
     }
 }
+@media screen and (max-width: 800px) {
+  body{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 14vw;
+  }
+  #quiz_title {
+    font-size: 10vw;
+  }
+  #results_title {
+    font-size: 8vw;
+  }
+  h2 {
+    font-size: 8vw;
+  }
+  p {
+    font-size: 5vw;
+  }
+  select {
+    margin: 2 auto;
+  }
+  #startbutton {
+    font-size: 6vw;
+  }
+  #buttonholder{
+    margin: 0 auto;
+    width: 100%;
+  }
+  button.button {
+    font-size: 6vw;
+    width: 1%;
+  }
+  #question{
+    width: 100%
+    padding: 1vw;
+    border: 1vw;
+    margin: 0 auto;
+    margin-bottom: 8vw;
+    font-size: 7vw;
+  }
+  #back_button{
+    font-size: 5vw;
+  }
+  #result {
+    font-size: 8vw;
+  }
+  #desc {
+    font-size: 5vw;
+    width: 80%;
+  }
+}
